@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>The name of the app</title>
+    <!-- Include the stylesheets you need for the Views components -->
+    <!-- See https://developer.spotify.com/technologies/apps/docs/preview/views/ -->
+    <link rel="stylesheet" href="$views/css/image.css">
+    <link rel="stylesheet" href="$views/css/list.css">
+    <link rel="stylesheet" href="$views/css/buttons.css">
+    <link rel="stylesheet" href="$views/css/tabbar.css">
+    <link rel="stylesheet" href="$timemachine/css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="$timemachine/css/ion.rangeSlider.skinNice.css">
+    <!-- <link rel="stylesheet" href="$views/css/throbber.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- If you are using the preview SDK for webplayer then uncomment the script below -->
+    <!--script src="http://d1hza3lyffsoht.cloudfront.net/preview-sdk/bootstrap.js"></script-->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+      <input id="picker" type="text" id="someID" name="rangeName" value="1950;2000" />
+    </div>
+    </header>
+      <section id="overview"></section>
+      <div id="playlist"></div>
+
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+    <script src="scripts/ion.rangeSlider.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
